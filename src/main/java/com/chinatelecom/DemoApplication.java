@@ -10,7 +10,6 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"cn.chinatelecom.dp.*"})
-@PropertySource(value={"classpath:conf/sdk.properties","application.properties"})
 public class DemoApplication {
 
 

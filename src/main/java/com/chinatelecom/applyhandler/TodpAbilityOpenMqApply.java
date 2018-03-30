@@ -12,7 +12,7 @@ import cn.chinatelecom.dp.processengine.sdk.applyhandler.MessageHandler;
 // * Created by wu on 18-3-21.
 // */
 //
-@MessageHandler(action = "todp_ability_open_mq_apply")
+@MessageHandler(action = "todp_ability_open_nosql_apply")
 public class TodpAbilityOpenMqApply  extends BaseHandler {
 
     @Override
